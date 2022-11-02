@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Selectors</title>
+	<style>
+		.paragraph {
+			color: tomato;
+		}
+
+		div .paragraph {
+			text-align: center;
+			color: blue;
+		}
+
+		div {
+			background-color: yellow;
+		}
+
+		div.ozel {
+			background-color: blue;
+		}
+
+		div:hover {
+			background-color: tomato;
+			color: white;
+		}
+
+		.ozel:first-child {
+			color: green;
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<p class="paragraph ozel">
+		Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<div>
+		<p class="paragraph">
+			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		</p>
+	</div>
+	<div class="ozel">
+		<p>Emre Ziya Efe</p>
+		<p>Full Stack Developer</p>
+	</div>
+
+</body>
+</html>
