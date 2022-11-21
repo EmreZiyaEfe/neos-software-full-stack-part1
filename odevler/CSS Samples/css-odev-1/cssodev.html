@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Odev</title>
+    <style>
+        .container {
+            width: 1200px;
+            height: 400px;
+            margin-left: 30px;
+            box-sizing: border-box;
+            /*background-image: linear-gradient(to right, rgba(0, 0, 255, 0.333), rgba(255, 0, 0, 0.239), rgba(0, 0, 0, 0.305)), url(pic.jpg);*/
+            background-image: linear-gradient(to right, rgba(0, 0, 255, 0.431), rgba(255, 0, 0, 0.494)), url(pic.jpg);
+            background-position: center;
+            background-size: cover;
+            transition: 0.6s;
+            border-radius: 10px;
+            
+        }
+
+        .container:hover {
+            box-shadow: 5px 5px 20px blue;
+            text-shadow: 2px 2px 5px black;
+        }
+        
+        .first-box {
+            width: 50%;
+            height: 150px;
+            border: 7px groove lightblue;
+            box-sizing: border-box;
+            float: left;
+        }
+        .second-box {
+            width: 50%;
+            height: 150px;
+            border: 7px groove #e88385;
+            box-sizing: border-box;
+            float: left;
+        }
+        h3 {
+            color: white;
+            margin: auto;
+            padding: 15px;
+        }
+        p {
+            color: white;
+            margin: auto;
+            padding: 15px;
+            
+        }
+        .paragraph {
+            box-sizing: border-box;
+            float: left;
+            margin-top: 40px;
+            
+        }
+        .paragraph p {
+            font-style: italic;
+            font-size: 20px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+            <div class="first-box">
+                <h3>Neos Yazılım</h3>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam quaerat ducimus dolor neque similique! Quisquam ipsam repellendus dolore veritatis voluptatum temporibus placeat nesciunt fugiat soluta autem dolorum doloremque, hic et.
+                </p>
+            </div>
+            <div class="second-box">
+                <h3>Front-End</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas, tempore. Expedita maxime totam accusamus eaque doloribus quia vel sapiente natus, ducimus reiciendis dolorem, nobis sint quas. Incidunt sapiente earum distinctio.
+                </p>
+            </div>
+            <div class="paragraph">
+                <p style="margin: auto;">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum repudiandae quaerat iure quas culpa libero sint atque incidunt similique dolorum a, illum amet excepturi pariatur cumque velit voluptates temporibus animi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet eligendi harum molestiae dolorum esse error quas, quibusdam beatae, corrupti voluptatibus incidunt necessitatibus recusandae inventore nam, maxime neque minima! Blanditiis, incidunt.
+                </p>
+            </div>
+    </div>
+</body>
+</html>
