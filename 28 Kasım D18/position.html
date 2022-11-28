@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            width: 90%;
+            height: 1700px;
+            margin: auto;
+            border: 1px solid black;
+            position: relative;
+        }
+        .relative {
+            width: 250px;
+            height: 200px;
+            /* border: 1px solid black; */
+            position: relative;
+            top: 60px;
+            left: 10px;
+        }
+        .absolute {
+            /* width: 250px; */
+            text-align: center;
+            /* border: 1px solid black; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        /*sayfanin basina gitmek icin veya bilgi icin kullanilabilir*/
+        .fixed {
+            width: 100px;
+            height: 50px;
+            background-color: blue;
+            position: fixed;
+            bottom: 15px;
+            right: 20px;
+        }
+        a {
+            color: white;
+            text-decoration: none;
+            text-align: center;
+        }
+        /*menu icin kullanilabir*/
+        .sticky {
+            position: sticky;
+            top: 40px;
+        }
+        .fixed2 {
+            position: sticky;
+            top: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="yukari">
+        <div class="relative"></div>
+        <div class="absolute">
+            <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, dolorem.</h1>
+        </div>
+        <div class="fixed">
+            <a href="#yukari">Yukarı git</a>
+        </div>
+        <div class="sticky">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A, tenetur?
+        </div>
+        <div class="fixed2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex, voluptatum.
+        </div>
+    </div>
+</body>
+</html>
