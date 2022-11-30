@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Yapımı</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: rgb(40, 40, 40);
+        }
+        nav ul {
+            margin: 0;
+            padding: 0px;
+        }
+        nav ul li {
+            display: inline-block;
+            padding: 20px;
+            list-style-type: none /*Liste başındaki simgeleri kaldırır*/;
+            transition: 0.6s;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        nav ul li:hover {
+            background-color: rgb(114,107,107);
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="">Anasayfa</a></li>
+            <li><a href="hakkimizda.html">Hakkımızda</a></li>
+            <li><a href="İletisim.html">İletişim</a></li>
+            <li><a href="login.html">Giriş Yap</a></li>
+            <li><a href="register.html">Kayıt Ol</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
