@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p::first-letter {
+            color: red;
+        }
+        li {
+            color: blue;
+        }
+        ::marker {
+            color: red;
+        }
+        p::first-line {
+            color: blueviolet;
+        }
+        .paragraf:first-child {
+            color: green;
+        }
+        p i:first-child {
+            color: brown;
+        }
+
+        p::before {
+            content: "Merhaba";
+        }
+        p::after {
+            content: "Son";
+        }
+    </style>
+</head>
+<body>
+    <p class="paragraf">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nisi consequuntur eum debitis molestiae dignissimos aliquam? Sint, nesciunt. Et pariatur, delectus praesentium, harum quos eveniet, inventore asperiores maxime fugiat tenetur veritatis?
+    </p>
+    <p class="paragraf">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui illum, rerum libero ea <i>ducimus dignissimos</i> praesentium quia obcaecati, quaerat impedit ad labore cupiditate. <i>Eos molestiae,</i> hic perspiciatis optio iste sequi.
+    </p>
+    <li>Menu</li>
+    <li>Menu</li>
+    <li>Menu</li>
+    <li>Menu</li>
+</body>
+</html>
